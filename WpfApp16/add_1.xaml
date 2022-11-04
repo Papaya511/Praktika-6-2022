@@ -1,0 +1,36 @@
+﻿<Window x:Class="WpfApp16.add_1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp16"
+        mc:Ignorable="d"
+        Title="add_1" Height="269" Width="658"  Background="Black">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="17*"/>
+            <ColumnDefinition Width="404*"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+
+        <Button Content="Добавить" x:Name="W_add_button" Margin="291,166,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" Foreground="White" Visibility="Visible" BorderBrush="White" Height="34" HorizontalAlignment="Left" Width="260" Click="W_add_button_Click" Grid.Column="1" Background="#FFFC00FF" FontSize="20"/>
+        <TextBox HorizontalAlignment="Left" Margin="116,19,0,0" TextWrapping="Wrap" Text="" x:Name="Tb1" VerticalAlignment="Top" Width="153" FontFamily="Times New Roman" Foreground="#FF00AA00" Height="26" FontWeight="Bold" Grid.Column="1"/>
+        <Label Content="name worker" HorizontalAlignment="Left" Margin="8,19,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" Foreground="Lime" Height="26" FontWeight="Bold" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" Margin="116,58,0,0" TextWrapping="Wrap" Text="" x:Name="Tb2" VerticalAlignment="Top" Width="153" FontFamily="Times New Roman" Foreground="#FF00AA00" Height="25" FontWeight="Bold" Grid.Column="1"/>
+        <Label Content="surname worker" HorizontalAlignment="Left" Margin="8,58,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" Foreground="Lime" Height="25" FontWeight="Bold" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" Margin="116,96,0,0" TextWrapping="Wrap" Text="" x:Name="Tb3" VerticalAlignment="Top" Width="153" FontFamily="Times New Roman" Foreground="#FF00AA00" Height="25" FontWeight="Bold" Grid.Column="1"/>
+        <Label Content="patronymic" HorizontalAlignment="Left" Margin="8,96,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" Foreground="Lime" Height="25" FontWeight="Bold" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" Margin="116,133,0,0" TextWrapping="Wrap" Text="" x:Name="Tb4" VerticalAlignment="Top" Width="153" FontFamily="Times New Roman" Foreground="#FF00AA00" Height="26" FontWeight="Bold" Grid.Column="1"/>
+        <Label Content="id history" HorizontalAlignment="Left" Margin="8,133,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" Foreground="Lime" Height="26" FontWeight="Bold" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" Margin="116,175,0,0" TextWrapping="Wrap" Text="" x:Name="Tb5" VerticalAlignment="Top" Width="153" FontFamily="Times New Roman" Foreground="#FF00AA00" Height="25" FontWeight="Bold" Grid.Column="1"/>
+        <Label Content="id category" HorizontalAlignment="Left" Margin="8,175,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" Foreground="Lime" Height="25" FontWeight="Bold" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" Margin="398,25,0,0" TextWrapping="Wrap" Text="" x:Name="Tb6" VerticalAlignment="Top" Width="153" FontFamily="Times New Roman" Foreground="#FF00AA00" Height="25" FontWeight="Bold" Grid.Column="1"/>
+        <Label Content="age" HorizontalAlignment="Left" Margin="291,25,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" Foreground="Lime" Height="25" FontWeight="Bold" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" Margin="398,57,0,0" TextWrapping="Wrap" Text="" x:Name="Tb7" VerticalAlignment="Top" Width="153" FontFamily="Times New Roman" Foreground="#FF00AA00" Height="25" FontWeight="Bold" Grid.Column="1"/>
+        <Label Content="family status" HorizontalAlignment="Left" Margin="291,57,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" Foreground="Lime" Height="25" FontWeight="Bold" Grid.Column="1"/>
+        <Label Content="gender" HorizontalAlignment="Left" Margin="290,95,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" Foreground="Lime" Height="25" FontWeight="Bold" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" Margin="398,133,0,0" TextWrapping="Wrap" Text="" x:Name="Tb8" VerticalAlignment="Top" Width="153" FontFamily="Times New Roman" Foreground="#FF00AA00" Height="26" FontWeight="Bold" Grid.Column="1"/>
+        <Label Content="id post" HorizontalAlignment="Left" Margin="291,133,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" Foreground="Lime" Height="26" FontWeight="Bold" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" Margin="398,96,0,0" TextWrapping="Wrap" Text="" x:Name="Tb9" VerticalAlignment="Top" Width="153" FontFamily="Times New Roman" Foreground="#FF00AA00" Height="26" FontWeight="Bold" Grid.Column="1"/>
+    </Grid>
+</Window>

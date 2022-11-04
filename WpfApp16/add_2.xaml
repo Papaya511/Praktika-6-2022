@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApp16.add_2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp16"
+        mc:Ignorable="d"
+        Title="add_2" Height="245" Width="293" Background="#FF0F000F">
+    <Grid>
+
+        <Button Content="Добавить" x:Name="C_add_button" Margin="17,121,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" Foreground="White" Visibility="Visible" BorderBrush="White" Height="67" HorizontalAlignment="Left" Width="261" Click="C_add_button_Click" Background="#FFFC00FF" FontWeight="Bold" FontSize="40"/>
+        <TextBox HorizontalAlignment="Left" Margin="125,19,0,0" TextWrapping="Wrap" Text="" Name="Tb2" VerticalAlignment="Top" Width="153" FontFamily="Times New Roman" Foreground="#FF00AA00" Height="26" FontWeight="Bold"/>
+        <Label Content="category" HorizontalAlignment="Left" Margin="17,20,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" Foreground="Lime" Height="26" FontWeight="Bold"/>
+        <TextBox HorizontalAlignment="Left" Margin="125,51,0,0" TextWrapping="Wrap" Text="" Name="Tb3" VerticalAlignment="Top" Width="153" FontFamily="Times New Roman" Foreground="#FF00AA00" Height="25" FontWeight="Bold"/>
+        <Label Content="id post" HorizontalAlignment="Left" Margin="17,51,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" Foreground="Lime" Height="25" FontWeight="Bold"/>
+        <TextBox HorizontalAlignment="Left" Margin="125,81,0,0" TextWrapping="Wrap" Text="" Name="Tb4" VerticalAlignment="Top" Width="153" FontFamily="Times New Roman" Foreground="#FF00AA00" Height="25" FontWeight="Bold"/>
+        <Label Content="factor" HorizontalAlignment="Left" Margin="17,81,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" Foreground="Lime" Height="25" FontWeight="Bold"/>
+    </Grid>
+</Window>
